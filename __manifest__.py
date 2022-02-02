@@ -3,11 +3,10 @@
     'name': "proyectos",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Esta aplicacion esta fuera de mi casa""",
 
     'description': """
-        Long description of module's purpose
+        La mejor de mi casa
     """,
 
     'author': "Aitor Menta",
@@ -32,4 +31,5 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'application' : True
 }
