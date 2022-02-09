@@ -20,3 +20,5 @@
             <field name="implied_ids" eval="[(4,ref('group_proyectos_role2'))]"/>
             <field name="users" eval="[(4, ref('base.user_root')), (4,ref('base.user_admin'))]"/>
         </record>
+    </data>
+</odoo>
