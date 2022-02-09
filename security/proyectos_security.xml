@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding='UTF-8' ?>
 
 <odoo>
     <data>
@@ -19,7 +19,7 @@
             <field name="category_id" ref="proyectos.module.category_proyectos"/>
             <field name="comment">role1</field>
             <field name="implied_ids" eval="[(4, ref('group_proyectos_role2'))]"/>
-            <field name="users" eval="[(4,ref('base.user_root')), (4,ref('base.user_admin'))]"/>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
         </record>
     </data>
 </odoo>
