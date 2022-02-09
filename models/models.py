@@ -34,9 +34,9 @@ class empleado(models.Model):
 
 	#atributos
 	dniEmpleado = fields.Char(string='DNI', required=True)
-	nombreEmpleado = fields.Char(string='Nombre' required=True)
-	fechaNacimiento = fields.Date(string='Fecha Nacimiento' required=True, default = fields.date.today())
-	direccionEmpleado = fields.Char(string='Direccion' required=True)
+	nombreEmpleado = fields.Char(string='Nombre', required=True)
+	fechaNacimiento = fields.Date(string='Fecha Nacimiento', required=True, default = fields.date.today())
+	direccionEmpleado = fields.Char(string='Direccion', required=True)
 	telefonoEmpleado = fields.Char(string='Telefono')
 
 	#Relacion entre tablas
