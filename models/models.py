@@ -53,7 +53,7 @@ class proyecto(models.Model):
 	ciudadProyecto = fields.Char(string='Ciudad')
 	descriptionProyecto = fields.Text('Descripcion Proyecto')
 	fechaInicio = fields.Date('Fecha de inicio', required=True)
-	fechaFinal = fields.Data('Fecha de final', required=True)
+	fechaFinal = fields.Date('Fecha de final', required=True)
 
 	#Relacion entre tablas
 	empleado_id = fields.Many2many('proyectos_empleado', string='Empleados')
