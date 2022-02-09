@@ -7,7 +7,7 @@
             <field name="description">Gestion y asignacion de proyecto</field>
         </record>
 
-        <record model="res.groups" id="group_proyecto_role2">
+        <record model="res.groups" id="group_proyectos_role2">
             <field name="name">role2</field>
             <field name="category_id" ref="proyectos.module_category_proyectos"/>
             <field name="comment">role2</field>
