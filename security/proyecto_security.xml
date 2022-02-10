@@ -2,7 +2,7 @@
 
 <odoo>
 
-    <data nopudate="1">
+    <data>
 
         <record name="ir.module.category" id="proyectos.module_category_proyectos">
             <field name="name">Proyectos</field>
