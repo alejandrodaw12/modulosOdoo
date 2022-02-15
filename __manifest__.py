@@ -23,7 +23,7 @@
 
     # always loaded
     'data': [
-        'security/proyectos_security.xml',
+        'security/proyectos_security_fail.xml',
         'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
