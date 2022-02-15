@@ -83,9 +83,7 @@ class proyecto(models.Model):
 	def _checkFechaFinal(self):
 		hoy = date.today()
 		for proyecto in self:
-			proyecto.fechaFinal
-			dias = relativedelta(hoy, proyecto,fechaInicio).days
-			if(dias > 0):
+			if relativedelta(hoy, proyecto,fechaFinal).days > 0:
 				raise exceptions.ValidationError("La fehca no puede ser anterior a la fecha de inicio")
 
 	#Relacion entre tablas
